@@ -1,9 +1,6 @@
 const express = require("express");
 const cors = require("cors");
 const {uuid, isUuid} = require('uuidv4')
-
-// const { v4: uuid, validate: isUuid } = req('uuid');
-
 const app = express();
 
 app.use(express.json());
